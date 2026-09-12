@@ -521,14 +521,21 @@ Planned improvements include:
 
 **Data Analyst | Data Scientist | Applied Statistician**
 
+B.Sc. (Honours) in Applied Statistics
+
 M.Sc. in Applied Statistics and Data Science
+
 University of Dhaka
 
 ### Connect with me
 
-* 🐙 GitHub: [Rhyme-2002](https://github.com/Rhyme-2002)
-* 💼 LinkedIn: [Abu Sufiun Rhyme](https://www.linkedin.com/in/abu-sufiun-rhyme/)
-* 🌐 Portfolio: [rhyme-2002.github.io](https://rhyme-2002.github.io/)
+<p align="left">
+    <a href="https://rhyme-2002.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/%20Portfolio-181717?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/abu-sufiun-rhyme/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:asrhyme@isrt.ac.bd"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
 ---
 

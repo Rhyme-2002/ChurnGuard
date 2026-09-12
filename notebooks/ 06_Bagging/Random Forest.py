@@ -22,6 +22,7 @@ cat_var = X.select_dtypes(include="object").columns
 cat_tran = Pipeline([("encode", OneHotEncoder(drop="first", handle_unknown="ignore"))])
 preprocessing = ColumnTransformer([("num", "passthrough", num_var), ("cat", cat_tran, cat_var)])
 model = Pipeline([("preprocessing", preprocessing), ("classifier", RandomForestClassifier(random_state=38, n_jobs=-1))])
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=47)
 
 # Define GridSearch parameters
 rf_params = {
@@ -52,6 +53,3 @@ confusion_matrix(y_test, y_pred)
 accuracy_score(y_test, y_pred)
 roc_auc_score(y_test, y_pred_prob)
 print(classification_report(y_test, y_pred))
-
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=47)

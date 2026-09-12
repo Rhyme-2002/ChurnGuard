@@ -33,6 +33,8 @@ param_grid = {
     "classifier__weights": ["uniform", "distance"],
     "classifier__p": [1, 2]
 }
+
+# GridSearchCV
 grid_knn = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, scoring="accuracy", n_jobs=-1)
 grid_knn.fit(X_train, y_train)
 

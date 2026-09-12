@@ -339,40 +339,40 @@ ChurnGuard/
 │
 ├── notebooks/
 │   │
-│   ├── 01_Data_Processing.ipynb
-│   ├── 02_EDA.ipynb
+│   ├── 01_Data_Processing.py
+│   ├── 02_EDA.py
 │   │
 │   ├── 03_Linear/
-│   │   └── Logistic_Regression.ipynb
+│   │   └── Logistic_Regression.py
 │   │
 │   ├── 04_Distance/
-│   │   └── KNN.ipynb
+│   │   └── KNN.py
 │   │
 │   ├── 05_Tree/
-│   │   └── Decision_Tree.ipynb
+│   │   └── Decision_Tree.py
 │   │
 │   ├── 06_Bagging/
-│   │   ├── Random_Forest.ipynb
-│   │   └── Extra_Trees.ipynb
+│   │   ├── Random_Forest.py
+│   │   └── Bagging.py
 │   │
 │   ├── 07_Boosting/
-│   │   ├── AdaBoost.ipynb
-│   │   ├── Gradient_Boosting.ipynb
-│   │   ├── XGBoost.ipynb
-│   │   └── HistGradientBoosting.ipynb
+│   │   ├── AdaBoost.py
+│   │   ├── Gradient_Boosting.py
+│   │   ├── XGBoost.py
+│   │   └── HistGradientBoosting.py
 │   │
 │   ├── 08_Kernel/
-│   │   └── SVM.ipynb
+│   │   └── SVM.py
 │   │
 │   ├── 09_Probabilistic/
-│   │   └── Gaussian_Naive_Bayes.ipynb
+│   │   └── Gaussian_Naive_Bayes.py
 │   │
 │   ├── 10_Discriminant/
-│   │   ├── LDA.ipynb
-│   │   └── QDA.ipynb
+│   │   ├── LDA.py
+│   │   └── QDA.py
 │   │
 │   └── 11_Neural_Network/
-│       └── MLP_Classifier.ipynb
+│       └── MLP_Classifier.py
 │
 ├── results/
 │   ├── model_comparison.csv

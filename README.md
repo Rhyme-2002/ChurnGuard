@@ -311,11 +311,11 @@ Example result structure:
 | KNN                  |         0.77|           0.77|       0.73|   0.77 |0.69|     0.66|
 | Decision Tree        |        0.78 |           0.74|       0.66|   0.74 |0.65|     0.58|
 | Random Forest        |           — |             — |         — |      — |  — |       — |
-| Extra Trees          |           — |             — |         — |      — |  — |       — |
+| CatBoost             |           — |             — |         — |      — |  — |       — |
 | AdaBoost             |           — |             — |         — |      — |  — |       — |
 | Gradient Boosting    |           — |             — |         — |      — |  — |       — |
 | XGBoost              |        0.78 |           0.78|       0.76|    0.78|0.70 |       0.71 |
-| HistGradientBoosting |           — |             — |         — |      — |  — |       — |
+|LightGBM              |           — |             — |         — |      — |  — |       — |
 | SVM                  |           — |             — |         — |      — |  — |       — |
 | Gaussian Naive Bayes |           — |             — |         — |      — |  — |       — |
 | LDA                  |           — |             — |         — |      — |  — |       — |

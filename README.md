@@ -312,19 +312,19 @@ Example result structure:
 
 | Model                | CV Accuracy | Test Accuracy | Precision | Recall | F1 | ROC-AUC |
 | -------------------- | ----------: | ------------: | --------: | -----: | -: | ------: |
-| Logistic Regression  |           — |          0.75 |       0.71|   0.75 |0.70 |    0.56|
+| Logistic Regression  |           — |          0.75 |       0.71|   0.75 |0.70|     0.56|
 | KNN                  |         0.77|           0.77|       0.73|   0.77 |0.69|     0.66|
 | Decision Tree        |        0.78 |           0.74|       0.66|   0.74 |0.65|     0.58|
 | Random Forest        |           — |             — |         — |      — |  — |       — |
 | CatBoost             |           — |             — |         — |      — |  — |       — |
 | AdaBoost             |           — |             — |         — |      — |  — |       — |
 | Gradient Boosting    |           — |             — |         — |      — |  — |       — |
-| XGBoost              |        0.78 |           0.78|       0.76|    0.78|0.70 |       0.71 |
+| XGBoost              |        0.78 |           0.78|       0.76|    0.78|0.70|     0.71|
 |LightGBM              |           — |             — |         — |      — |  — |       — |
 | SVM                  |           — |             — |         — |      — |  — |       — |
 | Gaussian Naive Bayes |           — |             — |         — |      — |  — |       — |
-| LDA                  |           — |             — |         — |      — |  — |       — |
-| QDA                  |           — |             — |         — |      — |  — |       — |
+| LDA                  |           — |          0.75 |      0.71 |    0.75|0.70|     0.71|
+| QDA                  |           — |           0.74|       0.70|    0.74|0.71|     0.69|
 | MLP Classifier       |           — |             — |         — |      — |  — |       — |
 
 > Results will be updated after completing the full benchmarking process.

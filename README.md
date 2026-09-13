@@ -322,7 +322,7 @@ Example result structure:
 | XGBoost              |        0.78 |           0.78|       0.76|    0.78|0.70|     0.71|
 |LightGBM              |         0.77|           0.77|       0.74|    0.77|0.72|     0.71|
 | SVM                  |           — |             — |         — |      — |  — |       — |
-| Gaussian Naive Bayes |           — |             — |         — |      — |  — |       — |
+| Gaussian Naive Bayes |         0.78|           0.74|       0.70|    0.74|0.70|     0.71|
 | LDA                  |           — |          0.75 |      0.71 |    0.75|0.70|     0.71|
 | QDA                  |           — |           0.74|       0.70|    0.74|0.71|     0.69|
 | MLP Classifier       |           — |             — |         — |      — |  — |       — |

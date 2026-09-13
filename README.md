@@ -95,14 +95,15 @@ ChurnGuard evaluates models from multiple supervised learning families.
 ### Bagging
 
 * Random Forest
-* Extra Trees
+* Bagging
 
 ### Boosting
 
+* CatBoost
 * AdaBoost
 * Gradient Boosting
 * XGBoost
-* HistGradientBoosting
+* LightGBM
 
 ### Kernel-Based
 
@@ -199,8 +200,12 @@ Tree-based algorithms such as:
 
 * Decision Tree
 * Random Forest
-* Extra Trees
+* Bagging
 * Gradient Boosting
+* CatBoost
+* LightGBM
+* XGBoost
+* AdaBoost
 
 do not require standard feature scaling.
 

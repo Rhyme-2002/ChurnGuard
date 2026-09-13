@@ -1,0 +1,15 @@
+Model,CV Accuracy,Test Accuracy,Precision,Recall,F1,ROC-AUC
+Logistic Regression,,0.75,0.71,0.75,0.70,0.56
+KNN,0.77,0.77,0.73,0.77,0.69,0.66
+Decision Tree,0.78,0.74,0.66,0.74,0.65,0.58
+Random Forest,,,,,,
+CatBoost,0.78,0.77,0.75,0.77,0.70,0.71
+AdaBoost,0.78,0.77,0.74,0.77,0.70,0.70
+Gradient Boosting,0.78,0.78,0.74,0.78,0.72,0.72
+XGBoost,0.78,0.78,0.76,0.78,0.70,0.71
+LightGBM,0.77,0.77,0.74,0.77,0.72,0.71
+SVM,,,,,,
+Gaussian Naive Bayes,0.78,0.74,0.70,0.74,0.70,0.71
+LDA,,0.75,0.71,0.75,0.70,0.71
+QDA,,0.74,0.70,0.74,0.71,0.69
+MLP Classifier,,,,,,

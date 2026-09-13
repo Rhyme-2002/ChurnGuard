@@ -24,6 +24,7 @@ cat_tran = Pipeline([("encode", OneHotEncoder(drop="first", handle_unknown="igno
 
 preprocessing = ColumnTransformer([("num", num_tran, num_var), ("cat", cat_tran, cat_var)])
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.27, random_state=57)
+model = Pipeline([("Preprocessing", preprocessing), ("classifier", SVC(random_state=46, probability=True))])
 
 # Define GridSearch parameters
 param_grid_svm = {

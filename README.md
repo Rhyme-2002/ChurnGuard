@@ -307,8 +307,8 @@ Example result structure:
 
 | Model                | CV Accuracy | Test Accuracy | Precision | Recall | F1 | ROC-AUC |
 | -------------------- | ----------: | ------------: | --------: | -----: | -: | ------: |
-| Logistic Regression  |           — |             — |         — |      — |  — |       — |
-| KNN                  |           — |             — |         — |      — |  — |       — |
+| Logistic Regression  |           — |          0.75 |       0.71|   0.75 |0.70 |    0.56|
+| KNN                  |         0.77|           0.77|       0.73|   0.77 |0.69|     0.66|
 | Decision Tree        |           — |             — |         — |      — |  — |       — |
 | Random Forest        |           — |             — |         — |      — |  — |       — |
 | Extra Trees          |           — |             — |         — |      — |  — |       — |

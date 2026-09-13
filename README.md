@@ -308,7 +308,7 @@ Actual  0       TN      FP
 
 The final benchmarking stage compares all models using a common evaluation framework.
 
-Example result structure:
+result:
 
 | Model                | CV Accuracy | Test Accuracy | Precision | Recall | F1 | ROC-AUC |
 | -------------------- | ----------: | ------------: | --------: | -----: | -: | ------: |

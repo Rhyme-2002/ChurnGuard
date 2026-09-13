@@ -336,58 +336,76 @@ result:
 ```text
 ChurnGuard/
 │
-├── README.md
-├── requirements.txt
+├── Jupyter Notebook/
+│   │
+│   ├── 03_Linear model/
+│   │   └── Logistic Regression.ipynb
+│   │
+│   ├── 04_Distance/
+│   │   └── K-Nearest Neighbors (knn).ipynb
+│   │
+│   ├── 05_Tree/
+│   │   └── Decision Tree.ipynb
+│   │
+│   ├── 07_Boosting/
+│   │   ├── AdaBoost.ipynb
+│   │   ├── CatBoost.ipynb
+│   │   ├── Gradient Boosting.ipynb
+│   │   ├── LightGBM.ipynb
+│   │   └── XGBoost.ipynb
+│   │
+│   ├── 08_Kernel/
+│   │   └── dot.py
+│   │
+│   ├── 09_Probabilistic/
+│   │   └── Gaussian Naive Bayes.ipynb
+│   │
+│   ├── 10_Discriminant/
+│   │   ├── LDA.ipynb
+│   │   └── QDA.ipynb
+│   │
+│   ├── 01_Data Processing.ipynb
+│   └── 02_Exploratory Data Analysis.ipynb
 │
 ├── data/
-│   └── churn_data.csv
+│   ├── ChurnGuard_processed.csv
+│   └── ChurnGuard_raw.csv
 │
 ├── notebooks/
 │   │
-│   ├── 01_Data_Processing.py
-│   ├── 02_EDA.py
-│   │
-│   ├── 03_Linear/
-│   │   └── Logistic_Regression.py
+│   ├── 03_Linear model/
+│   │   └── Logistic Regression.py
 │   │
 │   ├── 04_Distance/
 │   │   └── KNN.py
 │   │
 │   ├── 05_Tree/
-│   │   └── Decision_Tree.py
+│   │   └── Decision Tree.py
 │   │
 │   ├── 06_Bagging/
-│   │   ├── Random_Forest.py
-│   │   └── Bagging.py
+│   │   ├── Bagging.py
+│   │   └── Random Forest.py
 │   │
 │   ├── 07_Boosting/
-│   │   ├── AdaBoost.py
-│   │   ├── Gradient_Boosting.py
-│   │   ├── XGBoost.py
-│   │   └── HistGradientBoosting.py
+│   │   ├── CatBoost.py
+│   │   └── XGBoost.py
 │   │
 │   ├── 08_Kernel/
 │   │   └── SVM.py
 │   │
 │   ├── 09_Probabilistic/
-│   │   └── Gaussian_Naive_Bayes.py
+│   │   └── Gaussian Naive Bayes.py
 │   │
 │   ├── 10_Discriminant/
-│   │   ├── LDA.py
-│   │   └── QDA.py
 │   │
-│   └── 11_Neural_Network/
-│       └── MLP_Classifier.py
+│   ├── 01_Data Processing.py
+│   └── 02_Exploratory Data Analysis.py
 │
-├── results/
-│   ├── model_comparison.csv
-│   ├── best_models.csv
-│   └── figures/
+├── result/
+│   └── model comparison.csv
 │
-└── src/
-    ├── preprocessing.py
-    ├── evaluation.py
-    └── model_comparison.py
+├── README.md
+└── requirements.txt
 ```
 
 ---

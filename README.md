@@ -314,7 +314,7 @@ Example result structure:
 | Extra Trees          |           — |             — |         — |      — |  — |       — |
 | AdaBoost             |           — |             — |         — |      — |  — |       — |
 | Gradient Boosting    |           — |             — |         — |      — |  — |       — |
-| XGBoost              |           — |             — |         — |      — |  — |       — |
+| XGBoost              |        0.78 |           0.78|       0.76|    0.78|0.70 |       0.71 |
 | HistGradientBoosting |           — |             — |         — |      — |  — |       — |
 | SVM                  |           — |             — |         — |      — |  — |       — |
 | Gaussian Naive Bayes |           — |             — |         — |      — |  — |       — |
